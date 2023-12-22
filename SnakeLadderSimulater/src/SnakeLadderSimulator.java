@@ -8,8 +8,8 @@ public class SnakeLadderSimulator {
     }
 
     private static int playTurn(int player, int position) {
-        System.out.print("Player " + player + ", press Enter to roll the die...");
-        new Scanner(System.in).nextLine();
+        System.out.print("Player " + player + ", Turn");
+        // new Scanner(System.in).nextLine();
 
         int diceRoll = rollDie();
         System.out.println("Player " + player + " rolled a " + diceRoll + ".");
